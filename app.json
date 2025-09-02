@@ -1,0 +1,11 @@
+﻿{
+  "expo": {
+    "name": "Peptide-planner-dev",
+    "slug": "peptide-planner-dev",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "51.0.0",
+    "platforms": [ "ios", "android", "web" ],
+    "assetBundlePatterns": [ "**/*" ]
+  }
+}

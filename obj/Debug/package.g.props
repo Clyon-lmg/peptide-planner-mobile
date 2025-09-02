@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">peptide-planner-dev</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">node_modules/expo/AppEntry.js</PackageJsonMain>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">expo start</PackageJsonScriptsStart>
+    <PackageJsonScriptsAndroid Condition="$(PackageJsonScriptsAndroid) == ''">expo run:android</PackageJsonScriptsAndroid>
+    <PackageJsonScriptsIos Condition="$(PackageJsonScriptsIos) == ''">expo run:ios</PackageJsonScriptsIos>
+    <PackageJsonScriptsWeb Condition="$(PackageJsonScriptsWeb) == ''">expo start --web</PackageJsonScriptsWeb>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">jest</PackageJsonScriptsTest>
+    <PackageJsonDependenciesExpo Condition="$(PackageJsonDependenciesExpo) == ''">~51.0.0</PackageJsonDependenciesExpo>
+    <PackageJsonDependenciesExpoStatusBar Condition="$(PackageJsonDependenciesExpoStatusBar) == ''">~1.12.0</PackageJsonDependenciesExpoStatusBar>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactNative Condition="$(PackageJsonDependenciesReactNative) == ''">0.74.0</PackageJsonDependenciesReactNative>
+    <PackageJsonDependenciesReactNavigationNative Condition="$(PackageJsonDependenciesReactNavigationNative) == ''">^6.0.0</PackageJsonDependenciesReactNavigationNative>
+    <PackageJsonDependenciesReactNavigationDrawer Condition="$(PackageJsonDependenciesReactNavigationDrawer) == ''">^6.6.0</PackageJsonDependenciesReactNavigationDrawer>
+    <PackageJsonDependenciesReactNavigationNativeStack Condition="$(PackageJsonDependenciesReactNavigationNativeStack) == ''">^6.9.0</PackageJsonDependenciesReactNavigationNativeStack>
+    <PackageJsonDependenciesReactNativeGestureHandler Condition="$(PackageJsonDependenciesReactNativeGestureHandler) == ''">~2.12.0</PackageJsonDependenciesReactNativeGestureHandler>
+    <PackageJsonDependenciesReactNativeReanimated Condition="$(PackageJsonDependenciesReactNativeReanimated) == ''">~3.6.1</PackageJsonDependenciesReactNativeReanimated>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.2.45</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactNative Condition="$(PackageJsonDevdependenciesTypesReactNative) == ''">^0.74.0</PackageJsonDevdependenciesTypesReactNative>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.0.0</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDevdependenciesJestExpo Condition="$(PackageJsonDevdependenciesJestExpo) == ''">~51.0.0</PackageJsonDevdependenciesJestExpo>
+  </PropertyGroup>
+</Project>
